@@ -38,4 +38,5 @@ node_modules
 */src/*.js
 */src/*/*.js
 */index.js
-nlp-data/.build/*
+nlp-data/.publish/*
+nlp-data/.definitions/*
