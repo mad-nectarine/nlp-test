@@ -32,3 +32,10 @@ node_modules
 
 # Optional REPL history
 .node_repl_history
+
+# ignore typescript compiled js
+*.old.js
+*/src/*.js
+*/src/*/*.js
+*/index.js
+nlp-data/.build/*

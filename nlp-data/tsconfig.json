@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "commonjs",
+    "noImplicitAny": false,
+    "declaration": true
+  },
+  "filesGlob": [
+    "./**/*.ts",
+    "./**/*.tsx",
+    "!./.publish/**/*.*",
+    "!./.definitions/**/*.*",
+    "!./node_modules/**/*.ts",
+    "!./bower_components/**/*.ts",
+    "!./typings/**/*.ts",
+    "!./node_modules/**/*.tsx",
+    "!./bower_components/**/*.tsx",
+    "!./typings/**/*.tsx",
+    "./node_modules/typescript/lib/lib.es6.d.ts"
+  ],
+  "files": [
+    "./index.ts",
+    "./Scripts/typings/node/node.d.ts",
+    "./Scripts/typings/tsd.d.ts",
+    "./src/data/Config.ts",
+    "./src/data/Tweets.ts",
+    "./src/util/ESClientFactory.ts",
+    "./node_modules/typescript/lib/lib.es6.d.ts"
+  ]
+}

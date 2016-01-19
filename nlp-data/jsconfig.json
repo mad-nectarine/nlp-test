@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs"
+  },
+  "filesGlob": [
+    "./**/*.js",
+    "./**/*.jsx",
+    "!./**/*.old.js",
+    "!./**/*.min.js",
+    "!./**/*.debug.js",
+    "!./.publish/*/*",
+    "!./.definitions/*/*",
+    "!./gulpfile.js",
+    "!./babel/*.js",
+    "!./node_modules/**/*.js",
+    "!./bower_components/**/*.js",
+    "!./typings/**/*.js",
+    "!./node_modules/**/*.jsx",
+    "!./bower_components/**/*.jsx",
+    "!./typings/**/*.jsx"
+  ],
+  "files": [
+    "./index.js",
+    "./src/data/Config.js",
+    "./src/data/Tweets.js",
+    "./src/util/ESClientFactory.js"
+  ]
+}
