@@ -1,0 +1,8 @@
+{
+    "es": {
+        "host": "ip.or.host",
+        "port": 9200,
+        "auth": null,
+        "index": "twdata"
+    }
+}

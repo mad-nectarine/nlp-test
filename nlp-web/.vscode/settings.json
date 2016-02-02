@@ -1,0 +1,4 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "typescript.tsdk": "C:/git/localonly/nlp/nlp-web/node_modules/typescript/lib"
+}

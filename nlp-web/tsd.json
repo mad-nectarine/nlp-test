@@ -1,0 +1,81 @@
+{
+  "version": "v4",
+  "repo": "borisyankov/DefinitelyTyped",
+  "ref": "master",
+  "path": "Scripts/typings",
+  "bundle": "Scripts/typings/tsd.d.ts",
+  "installed": {
+    "mime/mime.d.ts": {
+      "commit": "e48f0c7a0a5f9e9d35e9cfd7506461bab435cb49"
+    },
+    "serve-static/serve-static.d.ts": {
+      "commit": "e48f0c7a0a5f9e9d35e9cfd7506461bab435cb49"
+    },
+    "express/express.d.ts": {
+      "commit": "e48f0c7a0a5f9e9d35e9cfd7506461bab435cb49"
+    },
+    "node/node.d.ts": {
+      "commit": "e48f0c7a0a5f9e9d35e9cfd7506461bab435cb49"
+    },
+    "cookie-parser/cookie-parser.d.ts": {
+      "commit": "fc341765ebbb04b7109981a25dced01f488f4d94"
+    },
+    "express-session/express-session.d.ts": {
+      "commit": "fc341765ebbb04b7109981a25dced01f488f4d94"
+    },
+    "multer/multer.d.ts": {
+      "commit": "fc341765ebbb04b7109981a25dced01f488f4d94"
+    },
+    "node-uuid/node-uuid-base.d.ts": {
+      "commit": "36c6ce86fb64bafb28ec95dc78c6b98228b45c8d"
+    },
+    "node-uuid/node-uuid.d.ts": {
+      "commit": "36c6ce86fb64bafb28ec95dc78c6b98228b45c8d"
+    },
+    "node-uuid/node-uuid-cjs.d.ts": {
+      "commit": "36c6ce86fb64bafb28ec95dc78c6b98228b45c8d"
+    },
+    "serve-favicon/serve-favicon.d.ts": {
+      "commit": "fc341765ebbb04b7109981a25dced01f488f4d94"
+    },
+    "body-parser/body-parser.d.ts": {
+      "commit": "fc341765ebbb04b7109981a25dced01f488f4d94"
+    },
+    "debug/debug.d.ts": {
+      "commit": "fc341765ebbb04b7109981a25dced01f488f4d94"
+    },
+    "superagent/superagent.d.ts": {
+      "commit": "fc341765ebbb04b7109981a25dced01f488f4d94"
+    },
+    "redux/redux.d.ts": {
+      "commit": "36c6ce86fb64bafb28ec95dc78c6b98228b45c8d"
+    },
+    "react-redux/react-redux.d.ts": {
+      "commit": "36c6ce86fb64bafb28ec95dc78c6b98228b45c8d"
+    },
+    "react/react.d.ts": {
+      "commit": "5c3e47967affa3c4128a3875d1664ba206ae1b0f"
+    },
+    "react/react-dom.d.ts": {
+      "commit": "ba424f7ee39717d51c17699a09ac8df312a7e9a1"
+    },
+    "redux-devtools/redux-devtools.d.ts": {
+      "commit": "ba424f7ee39717d51c17699a09ac8df312a7e9a1"
+    },
+    "redux-thunk/redux-thunk.d.ts": {
+      "commit": "ba424f7ee39717d51c17699a09ac8df312a7e9a1"
+    },
+    "morgan/morgan.d.ts": {
+      "commit": "e48f0c7a0a5f9e9d35e9cfd7506461bab435cb49"
+    },
+    "history/history.d.ts": {
+      "commit": "5c3e47967affa3c4128a3875d1664ba206ae1b0f"
+    },
+    "react-router/history.d.ts": {
+      "commit": "5c3e47967affa3c4128a3875d1664ba206ae1b0f"
+    },
+    "react-router/react-router.d.ts": {
+      "commit": "5c3e47967affa3c4128a3875d1664ba206ae1b0f"
+    }
+  }
+}

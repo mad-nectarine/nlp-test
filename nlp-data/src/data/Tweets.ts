@@ -113,7 +113,7 @@ export namespace Data {
                     }
                 }
             }
-            return new Promise<IInfoOfCreateAtResult>(function(resolve, reject) {
+            return new Promise<IInfoOfCreateAtResult>((resolve, reject) => {
                 const client = ESClientFactory.Create(this._esParam)
                 client.search(param).then((resp) => {
                     const result = {
@@ -226,7 +226,7 @@ export namespace Data {
                     }
                 }
             }
-            return new Promise<ISearchResult>(function(resolve, reject) {
+            return new Promise<ISearchResult>((resolve, reject) => {
                 const client = ESClientFactory.Create(this._esParam)
                 client.search(param).then((resp) => {
                     const result = {

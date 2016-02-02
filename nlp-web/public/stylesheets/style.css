@@ -1,0 +1,417 @@
+body {
+    padding: 50px 20px 20px 20px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: #5f8bd9;
+}
+
+header {
+    position: fixed;
+    background-color: #6495ed;
+    padding: 10px 10px 10px 30px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+    header .title {
+        font-size: 1.5em;
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: bold;
+        letter-spacing: 0.1em;
+    }
+
+h1 {
+    padding: 0;
+    margin: 0 0 20px 0;
+    font-size: 2.5em;
+}
+
+section {
+    padding: 15px 20px;
+    border: 1px solid #eeeeee;
+    border-radius: 6px;
+}
+
+    section + section {
+        margin-top: 5px;
+    }
+
+    section h1 {
+        font-size: 2em;
+        margin: 0 0 5px 0;
+        padding: 0;
+    }
+
+input[type=button],
+input[type=submit],
+button {
+    border: 1px solid #6495ed;
+    background-color: #6495ed;
+    border-radius: 4px;
+    color: white;
+    padding: 4px 15px;
+    font-size: 1.2em;
+    cursor: pointer;
+      -webkit-appearance: none;
+}
+
+input[type=button]:disabled,
+input[type=submit]:disabled,
+button:disabled{
+    opacity: 0.5;
+    cursor: default;
+}
+
+input[type=text] {
+    border: 1px solid #AAAAAA;
+    border-radius: 4px;
+    padding: 4px 3px;
+    margin-right: 2px;
+      -webkit-appearance: none;
+      font-size:16px;
+}
+
+select {
+    border: 1px solid #AAAAAA;
+    border-radius: 4px;
+    padding: 3px 3px;
+    margin-right: 2px;
+}
+
+.input-form {
+    padding: 10px 0 0 0;
+}
+
+    .input-form p {
+        margin: 5px 10px 15px 0;
+    }
+
+    .input-form label {
+        margin-right: 20px;
+        font-weight: bold;
+        font-size: 1.3em;
+        min-width: 100px;
+        display: inline-block;
+    }
+
+    .input-form input[type=text]{
+        font-size: 1.2em;
+        padding:4px 5px;
+    }
+    .input-form select{
+        font-size: 1.2em;
+        padding:3px 3px;
+    }
+
+    .input-form .operations {
+        padding-top: 10px;
+        margin-bottom: 0;
+    }
+
+        .operations input[type=button],
+        .operations input[type=submit],
+        .operations button {
+            margin-right: 10px;
+        }
+
+ul.list {
+    border: 1px solid #eeeeee;
+    padding: 0;
+    margin: 0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+    ul.list li {
+        border-top: 1px solid #eeeeee;
+        padding: 10px 15px;
+        list-style-type: none;
+        font-size: 1.2em;
+        cursor: pointer;
+        position: relative;
+    }
+
+        ul.list li:first-child {
+            border-top-style: none;
+        }
+       
+        ul.list li:hover
+        {
+            text-decoration: underline;
+        }
+        
+        ul.list.unselectable li,
+        ul.list li.unselectable
+        {
+            cursor: default;
+            text-decoration: none;
+        }
+        
+        
+        ul.list li.selected {
+            background-color: #6495ed;
+            color: #ffffff; 
+        }
+        ul.list li a {
+            width:100%;
+            display: inline-block;
+        }
+
+.list-operation-area
+{
+    margin:0;
+    padding: 3px 5px 3px 15px;
+    background-color: #6495ed;
+    border:solid #6495ed 1px;
+    border-radius: 8px 8px 0 0;
+}
+.list-operation-area input:not(.selected)
+{
+    background-color: #6495ed;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.list-operation-area + ul.list
+{
+    border-top-style: none; 
+    margin-top: 0;
+    border-radius: 0 0 8px 8px;
+} 
+
+.message {
+    border: solid 1px #eeeeee;
+    background-color: #eeeeee;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    border-radius: 6px;
+}
+
+    .message.none {
+        display: none;
+    }
+
+    .message.info {
+        border-color: #6495ed;
+        background-color: #6495ed;
+        color: #ffffff;
+    }
+
+    .message.success {
+        border-color: #6495ed;
+        background-color: #6495ed;
+        color: #ffffff;
+    }
+
+    .message.error {
+        border-color: #dc143c;
+        background-color: #dc143c;
+        color: #ffffff;
+    }
+
+/*.side-contents
+{
+    float: left;
+    height: 100%;
+}
+
+.main-contents
+{
+    float: left;
+    margin:0 10px;
+}*/
+
+ul.tweets 
+{
+    margin-top: 10px;
+    max-width:700px;
+}
+
+ul.tweets li 
+{
+    position: relative;
+}
+ul.tweets li .user
+{
+    color: #AAAAAA;
+    font-size: 13px;
+    position: absolute;
+    top:10px;
+    right: 15px;
+}
+
+ul.tweets li .user .usn,
+ul.tweets li .user .uid
+{
+    margin-left: 5px;
+}
+
+ul.tweets li .time
+{
+    color: #AAAAAA;
+    font-size: 13px;
+    position: absolute;
+    bottom:10px;
+    left: 15px;
+}
+ul.tweets li .score
+{
+    color: red;
+    font-weight: bold;
+    border-radius: 5px;
+    position: absolute;
+    top:10px;
+    left: 15px;
+}
+
+ul.tweets li .text
+{
+    display: block;
+    /*margin-top: 35px;*/
+    padding: 35px 0 20px 0;
+   
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    word-break: break-all;
+    word-wrap: normal;
+    line-height: 1.5em;
+}
+
+ul.tweets li .others
+{
+    margin-top: 5px;
+    color: #AAAAAA;
+    font-size: 12px;
+    text-align: right;
+}
+ul.tweets li .others span
+{
+    margin-right: 5px;
+}
+
+.essearch .condition input[type=text]
+{
+    font-size: 16px;
+    padding:5px 10px;
+      width:calc(100% - 150px);
+max-width:400px;
+}
+
+ul.tabs
+{
+    border:solid 1px #e0e0e0;
+    display: table;
+    height: 40px;
+    table-layout: fixed;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 8px 8px 0 0;
+}
+ul.tabs li
+{
+    display: table-cell;
+    width: 100px;
+    vertical-align: middle;
+    border-left: 1px solid #e0e0e0;
+    text-align: center;
+}
+ul.tabs li:first-child
+{
+    border-left-style: none; 
+}
+
+ul.tabs li a
+{
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+}
+
+ul.tabs li.selected,
+ul.tabs li.selected a
+{
+    color:white;
+    background-color: #6495ed;
+}
+
+.tabs + .main-contents > section
+{
+    border:1px solid #e0e0e0;
+    border-radius: 0;
+    margin-top: -1px;
+    
+}
+
+ul.list.state li h3
+{
+    margin: 5px 0;
+}
+ul.list.state li p
+{
+    margin: 5px 0 0 0;
+    padding: 10px 15px;
+    background-color: #eeeeee;
+}
+ul.list.conf li
+{
+    padding-right:50px;    
+}
+ul.list.conf li .key
+{
+    display: block;
+    color: #666666;
+    font-size: 15px;
+}
+ul.list.conf li .value
+{
+    display: block;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+ul.list.conf li .delete
+{
+    position: absolute;
+    height: 30px;
+    padding: 5px 5px;
+    line-height: 20px;
+    top:calc(50% - 15px);
+    right:15px;
+    background-color: transparent;
+    border:none;
+    color: #999999;
+    font-size: 30px;
+    margin: 0;
+}
+ul.list.conf li .delete:hover
+{
+    color: white;
+    background-color: red;
+    border:solid red 1px;
+}
+
+.esconf .input-form input[type=text]
+{
+    width: auto;
+}
+
+.esconf .items,
+.esconf .input-form
+{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.esconf .input-form
+{
+    padding-left: 20px;
+    padding-top: 40px;
+}

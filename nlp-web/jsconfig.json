@@ -1,0 +1,51 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs"
+  },
+  "filesGlob": [
+    "./**/*.js",
+    "./**/*.jsx",
+    "!./**/*.min.js",
+    "!./**/*.debug.js",
+    "!./gulpfile.js",
+    "!./babel/*.js",
+    "!./node_modules/**/*.js",
+    "!./bower_components/**/*.js",
+    "!./typings/**/*.js",
+    "!./node_modules/**/*.jsx",
+    "!./bower_components/**/*.jsx",
+    "!./typings/**/*.jsx"
+  ],
+  "files": [
+    "./app.js",
+    "./src/actions/EsConfActions.js",
+    "./src/actions/EsLogActions.js",
+    "./src/actions/EsSearchActions.js",
+    "./src/actions/EsStateActions.js",
+    "./src/app_endpoints/error.server.js",
+    "./src/app_endpoints/EsApp.client.js",
+    "./src/app_endpoints/EsApp.server.js",
+    "./src/apps/EsApp.js",
+    "./src/components/layouts/DefaultLayout.js",
+    "./src/components/layouts/PlainFullPageLayout.js",
+    "./src/components/layouts/ReduxFullPageLayout.js",
+    "./src/components/layouts/ReduxProviderLayout.js",
+    "./src/components/views/EsAppContainer.js",
+    "./src/components/views/EsConf.js",
+    "./src/components/views/EsLog.js",
+    "./src/components/views/EsSearch.js",
+    "./src/components/views/EsState.js",
+    "./src/components/views/MessageArea.js",
+    "./src/components/views/UrlUnMatch.js",
+    "./src/config/AppConfig.js",
+    "./src/config/RoutesConfig.js",
+    "./src/reducers/EsConfReducer.js",
+    "./src/reducers/EsLogReducer.js",
+    "./src/reducers/EsSearchReducer.js",
+    "./src/reducers/EsStateReducer.js",
+    "./src/routes/ES.js",
+    "./src/util/ActionStateConnector.js",
+    "./src/util/StoreFactory.js"
+  ]
+}

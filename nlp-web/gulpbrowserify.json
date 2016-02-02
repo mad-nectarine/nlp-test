@@ -1,0 +1,11 @@
+{
+	"glob": "./src/app_endpoints/*.client.js",
+	"dist": "./public/scripts/apps",
+	"rename": {
+		"extname": {
+			"source": ".client.js",
+			"release": ".min.js",
+			"debug": ".debug.js"
+		}
+	}
+}
