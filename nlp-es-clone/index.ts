@@ -3,7 +3,7 @@ var fs = require('fs')
 import clone from './src/clone.tweets'
 
 const es_param = {
-    Host: "40.117.151.69",
+    Host: "ip.or.host",
     Port: 9200,
 }
 const outDir = "./.clone_data/"
