@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2015",
+        "noImplicitAny": false,
+        "jsx": "react"
+    },
+    "compileOnSave": true,
+    "filesGlob": [
+        "./**/*.ts",
+        "./**/*.tsx"
+    ],
+    "exclude": [
+        "./node_modules/**/*.ts",
+        "./bower_components/**/*.ts",
+        "./typings/**/*.ts",
+        "./node_modules/**/*.tsx",
+        "./bower_components/**/*.tsx",
+        "./typings/**/*.tsx"
+    ]
+}
